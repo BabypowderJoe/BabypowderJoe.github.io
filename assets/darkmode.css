@@ -1,0 +1,38 @@
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+html, button, input, select, textarea { font-family: serif; color: #FFFFFF; }
+
+body {
+    background: #000000;
+}
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+a {
+    color: #FFF000;
+}
+a:visited {
+    color: #FFFFFF;
+}
+a:hover {
+    color: #68FF00;
+}
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active { outline: 0; }
+
+/* =============================================================================
+   Other
+   ========================================================================== */
+
+.list_headings  {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+}
